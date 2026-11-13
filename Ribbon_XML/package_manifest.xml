@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groundingCalculatorPackage version="v11" release="FINAL_AUDITED_COMPLETE">
+  <calculator path="Calculator/Engineering_Calculator_GROUNDING_MASTER_FINAL_AUDITED_v11.xlsx" macroEmbedded="false" />
+  <vba path="VBA/Grounding_OneClickReport_v11.bas" purpose="refresh, validation, navigation, print and PDF export" />
+  <ribbon office2010Plus="Ribbon_XML/customUI14.xml" office2007="Ribbon_XML/customUI.xml" />
+  <qa tests="50" failed="0" release="PASS" />
+  <functionalCoverage areas="18" implemented="18" />
+  <acceptance items="34" implemented="34" />
+  <note>Project release can remain INPUT REQUIRED, REVIEW REQUIRED or EXTERNAL VALIDATION REQUIRED when real project/manufacturer/field data are absent.</note>
+</groundingCalculatorPackage>

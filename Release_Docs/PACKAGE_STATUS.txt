@@ -1,0 +1,18 @@
+GROUNDING CALCULATOR — FINAL AUDITED v11 COMPLETE PACKAGE
+========================================================
+Workbook: Engineering_Calculator_GROUNDING_MASTER_FINAL_AUDITED_v11.xlsx
+Workbook QA at release: 50 tests / 0 failed / FINAL QA RELEASE = PASS
+Functional coverage register: 18/18 areas implemented
+Latest acceptance subset: 34/34 implemented
+Project example release may remain INPUT REQUIRED / REVIEW / EXTERNAL VALIDATION where manufacturer, relay, shield, soil-validation, or field-commissioning data are absent.
+
+VBA/Ribbon:
+- Grounding-specific VBA source included as .bas.
+- Office Ribbon custom UI XML included for current and legacy Office schemas.
+- VBA is source-only and must be imported/compiled in Excel Desktop before .xlsm release.
+- Ribbon XML is source-only and must be embedded with an Office custom-UI editor if a ribbon tab is desired.
+
+Package policy:
+- v11 XLSX is the engineering master baseline.
+- Do not replace the workbook with an older v2/v10 copy.
+- Future development must be additive and regression-tested.

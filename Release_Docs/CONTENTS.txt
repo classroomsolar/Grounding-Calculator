@@ -1,0 +1,18 @@
+Grounding_Calculator_FINAL_AUDITED_v11_COMPLETE/
+  Calculator/
+    Engineering_Calculator_GROUNDING_MASTER_FINAL_AUDITED_v11.xlsx
+  VBA/
+    Grounding_OneClickReport_v11.bas
+  Ribbon_XML/
+    customUI14.xml
+    customUI.xml
+    package_manifest.xml
+  Release_Docs/
+    Grounding_Master_FINAL_v11_QA_Summary.txt
+    README_VBA_RIBBON_INSTALL.txt
+    PACKAGE_STATUS.txt
+    CONTENTS.txt
+    SHA256SUMS.txt
+  Requirements/
+    MASTER_GROUNDING_REQUIREMENTS.md
+    DETAILED_GROUNDING_REQUIREMENTS.md

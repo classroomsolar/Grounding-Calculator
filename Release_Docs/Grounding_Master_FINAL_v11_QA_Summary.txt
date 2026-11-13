@@ -1,0 +1,23 @@
+GROUNDING CALCULATOR — FINAL AUDITED v11
+
+Baseline philosophy: additive development only; existing engines, dropdowns, databases, reports, and user workflows preserved.
+
+Final successful in-memory audit before export:
+- QA / regression / hard tests: 50 total, 0 failed, FINAL QA RELEASE = PASS
+- Formula error scan: 0 matches for #REF!, #DIV/0!, #VALUE!, #NAME?, #N/A, #NUM!
+- Master functional coverage register: 18/18 functional areas implemented
+- Latest grounding acceptance subset: 34/34 implemented
+
+Post-10-batch functions added in v11:
+- Multi-source fault and zero-sequence contribution engine for utility, generator, motor, IBR, and additional grounding sources
+- Point-in-time asymmetrical RMS fault-duty screen with ANSI/IEEE external-method gate
+- Extended metallic/earth return-path current model with source-side NGR/GT/neutral separation
+- Dual-unit / dimensional QA layer
+- 3-layer soil sensitivity screen (explicitly not a multilayer inversion solver)
+- Fall-of-potential resistance-vs-distance / 62% test curve engine
+- Advanced optimizer for fault current, clearing time, split factor, surface layer, NGR current, grounding-source count/location, seasonal soil, and pile credit
+- 28-section grounding-study report index
+- Master requirement coverage register
+
+Important engineering state:
+The spreadsheet functionality is implemented, but the example project remains INPUT REQUIRED / REVIEW / EXTERNAL VALIDATION in places where actual manufacturer ratings, relay/CT/VT settings, MV shield data, field testing, or specialized layered-soil/field-gradient validation are not supplied. These states are intentional and prevent false PASS results.

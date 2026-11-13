@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabGroundingTools" label="Grounding Tools">
+        <group id="grpGndNav" label="Navigate">
+          <button id="btnGndInputs" label="Inputs" size="large" imageMso="TableInsert" onAction="GND_RibbonInputs"/>
+          <button id="btnGndResults" label="Results" size="large" imageMso="PivotTableReport" onAction="GND_RibbonResults"/>
+          <button id="btnGndReport" label="Master Report" size="large" imageMso="FilePrintPreview" onAction="GND_RibbonReport"/>
+          <button id="btnGndQA" label="QA" size="large" imageMso="ReviewProtectWorkbook" onAction="GND_RibbonQA"/>
+        </group>
+        <group id="grpGndRun" label="Validate">
+          <button id="btnGndRefresh" label="Refresh + Validate" size="large" imageMso="RefreshAll" onAction="GND_RibbonRefresh"/>
+        </group>
+        <group id="grpGndOutput" label="Report / PDF">
+          <button id="btnGndPdfFull" label="Export Full PDF" size="large" imageMso="FileSaveAsPdfOrXps" onAction="GND_RibbonExportFull"/>
+          <button id="btnGndPdfSummary" label="Export Summary PDF" imageMso="FileSaveAsPdfOrXps" onAction="GND_RibbonExportSummary"/>
+          <button id="btnGndPrintFull" label="Print Full Report" imageMso="FilePrintQuick" onAction="GND_RibbonPrintFull"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabGroundingTools" label="Grounding Tools">
+        <group id="grpGndNav" label="Navigate">
+          <button id="btnGndInputs" label="Inputs" onAction="GND_RibbonInputs"/>
+          <button id="btnGndResults" label="Results" onAction="GND_RibbonResults"/>
+          <button id="btnGndReport" label="Master Report" onAction="GND_RibbonReport"/>
+          <button id="btnGndQA" label="QA" onAction="GND_RibbonQA"/>
+        </group>
+        <group id="grpGndRun" label="Validate">
+          <button id="btnGndRefresh" label="Refresh + Validate" onAction="GND_RibbonRefresh"/>
+        </group>
+        <group id="grpGndOutput" label="Report / PDF">
+          <button id="btnGndPdfFull" label="Export Full PDF" onAction="GND_RibbonExportFull"/>
+          <button id="btnGndPdfSummary" label="Export Summary PDF" onAction="GND_RibbonExportSummary"/>
+          <button id="btnGndPrintFull" label="Print Full Report" onAction="GND_RibbonPrintFull"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
